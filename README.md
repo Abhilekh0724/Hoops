@@ -10,9 +10,7 @@ This project provides a comprehensive NBA player trading analysis dashboard that
   - Points per game
   - Rebounds
   - Assists
-  - Age
   - Experience
-  - Salary
 - Interactive scatter plots comparing any two statistics
 - Filter players by team and position
 
@@ -34,6 +32,7 @@ This project provides a comprehensive NBA player trading analysis dashboard that
 - Required Python packages:
   ```
   streamlit
+  react
   pandas
   numpy
   matplotlib
@@ -41,44 +40,3 @@ This project provides a comprehensive NBA player trading analysis dashboard that
   scipy
   ```
 
-### Installation
-1. Clone this repository
-2. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Ensure data files are present:
-   - `nba.csv` (player statistics)
-   - `nbaallelo.csv` (historical team data)
-
-### Running the Dashboard
-```bash
-streamlit run dashboard.py
-```
-
-## Data Sources
-- Player statistics from NBA.com
-- Historical team data from FiveThirtyEight's NBA database
-- Salary information from Basketball Reference
-
-## How to Use
-
-1. **Team Selection**
-   - Choose your primary team from the sidebar
-   - Select additional teams for comparison
-
-2. **Player Analysis**
-   - View detailed player statistics
-   - Create custom statistical comparisons
-   - Filter players by various metrics
-
-3. **Trade Analysis**
-   - Select players to trade from your team
-   - Choose players to receive from other teams
-   - Review trade package statistics and salary implications
-
-## Contributing
-Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
